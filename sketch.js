@@ -20,7 +20,7 @@ function setup() {
 }
 
 function draw() {
-  background(rgba(0,123,255,.25));
+  background(200);
 
   image(img, 30, 0,1800,900);
 
