@@ -12,7 +12,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1900,900);
+  createCanvas(1600,900);
   input = createFileInput(handleFile);
   input.position(370, 855);
  
@@ -22,7 +22,7 @@ function setup() {
 function draw() {
   background(200);
 
-  image(img, 30, 0,1800,900);
+  image(img, 30, 0,1600,900);
 
  // label
   fill(255);
