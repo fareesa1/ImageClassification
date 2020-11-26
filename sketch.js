@@ -14,7 +14,7 @@ function preload() {
 function setup() {
   createCanvas(1900,900);
   input = createFileInput(handleFile);
-  input.position(570, 855);
+  input.position(470, 855);
  
   classifier.classify(img, gotResult);
 }
